@@ -1,0 +1,33 @@
+seats:
+  total: 8
+  tables: 2
+
+signals:
+  phrases:
+    - "Charging"
+    - "Study buddy"
+    - "Quiet"
+    - "Cable"
+    - "Contact"
+    - "Coffee break"
+    - "Need help"
+    - "Can help"
+    - "Focus time"
+    - "Available"
+
+messages:
+  timeout_seconds: 300
+  max_retry: 3
+
+tables:
+  auto_number: false
+  fixed_tables: [1, 2]
+
+test:
+  enabled: true
+  admin_features:
+    - show_all_users
+    - show_all_tables
+    - kick_user
+    - reset_database
+
