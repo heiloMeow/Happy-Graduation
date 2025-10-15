@@ -8,7 +8,11 @@ export function useWebSocket(userId) {
   const connect = () => {
     if (!userId) return;
 
-    const wsUrl = `ws://localhost:8000/ws/${userId}`;
+    // Extract host from API base URL or use default
+    const apiBase = import.meta.env.VITE_API_BASE || 'http://localhost:8000/api';
+    const host = apiBase.replace(/^https?:\/\//, '').replace(/\/api$/, '');
+    const wsProtocol = apiBase.startsWith('https') ? 'wss' : 'ws';
+    const wsUrl = `${wsProtocol}://${host}/ws/${userId}`;
     ws.value = new WebSocket(wsUrl);
 
     ws.value.onopen = () => {
