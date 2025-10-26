@@ -28,27 +28,28 @@ The following instructions describe how to deploy the system and how users can i
 
 Admin Mode — Deploy and Set Up the Terminal:
 When entering the website for the first time, the system opens in Admin Mode, used to set up the seat terminal’s physical location. (You can use two devices to set up, simulating different seats)
+
 Steps:
-Enter Admin Information
+1. Enter Admin Information
 On the initial screen, enter the admin’s name or select an existing role.
 
 
-Select Table and Seat
+2. Select Table and Seat
 Choose the corresponding Table and Seat to bind this device to a specific physical location.
 
 
-Configure Avatar and Signal
+3. Configure Avatar and Signal
 Complete the same setup flow as users do:
-Choose an Avatar (profile image).
-Select a Signal (such as “Available” or “Focused”) to represent the seat status.
+ Choose an Avatar (profile image).
+ Select a Signal (such as “Available” or “Focused”) to represent the seat status.
 
 
-Initialise the Device
+4. Initialise the Device
 Click “Initialise Device” to confirm.
 This assigns the current terminal as an active seat within the system.
 
 
-Exit Admin Mode
+5. Exit Admin Mode
 Click the avatar icon in the top-left corner and select “Leave Table”.
 The terminal is now ready for user interaction.
 
