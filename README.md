@@ -1,5 +1,7 @@
 Team15-Happy Graduation
+
 1.project introduction：
+
 Nudgee Q is a quiet-zone collaboration terminal designed for UQ library spaces. It aims to reduce students’ social anxiety by enabling non-intrusive, silent communication. Through simple digital signals and customizable avatars, students can request help or share support without breaking the quiet atmosphere, promoting emotional safety and mutual collaboration in shared study areas.
 
 
@@ -7,6 +9,7 @@ Nudgee Q is a quiet-zone collaboration terminal designed for UQ library spaces. 
 
 
 3.Prototype and Deployment Instructions：
+
 We invite you to experience NudgeeQ firsthand. The high-fidelity prototype is built as a web-based application, designed for flexible deployment on tablets at library desks.
 
 Link: https://nudgeeq.heilomeow.com/
