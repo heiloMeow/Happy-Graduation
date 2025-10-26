@@ -19,7 +19,7 @@ lerna-debug.log*
 # TypeScript
 *.tsbuildinfo
 
-
+.gitignore
 
 # Local databases
 *.sqlite
