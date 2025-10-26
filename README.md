@@ -6,7 +6,11 @@ Nudgee Q is a quiet-zone collaboration terminal designed for UQ library spaces. 
 
 
 2.Link to files：
-
+- [Design Artefacts](Design%20Artefacts/)
+- [Research & Evaluation](Research%20%26%20Evaluation/)
+- [Source Code - NudgeeQ Frontend](SorceCode/NudgeeQ/)
+- [Source Code - Server API](SorceCode/server/)
+- [Final Prototype Resource](Final%20Prototype%20Link/)
 
 3.Prototype and Deployment Instructions：
 
